@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+      <meta name = "viewport">
+        <title>Блог</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+          <link href = "blog.css" rel="stylesheet">
+
+          <script src="jquery-3.1.1.js"></script>
+          <script src = "blog.js"></script>
+        
+    </head>
+    <body>
+
+<div class = "navbar navbar-inverse navbar-nav open navbar-fixed-top">
+    <form class="form-inline">
+    <input type="text" class="span2" placeholder="Email">
+    <input type="password" class="span2" placeholder="Password">
+    <label class="checkbox">
+      <input type="checkbox"> Запомнить
+    </label>
+    <button type="submit" class="btn btn-default">Войти</button>
+    <button type="submit" class="btn btn-default"><a href = "sign_up.html">Зарегистрироваться</a></button>
+  </form>
+</div>
+
+<div class = "container"><br><br>
+
+  <h1>Bootstrap</h1>
+<h5>Автор: Анна</h5>
+<article>Bootstrap (также известен как Twitter Bootstrap) — <br>
+  свободный набор инструментов для создания сайтов и веб-приложений.
+  Включает в себя HTML- и CSS-шаблоны оформления для типографики, веб-форм,
+  кнопок, меток, блоков навигации и прочих компонентов веб-интерфейса,
+  включая JavaScript-расширения.</article><br>
+<footer>Дата: 15.01.2017</footer>
+<!-- </div> -->
+</article>
+
+<h1>AngularJS</h1>
+<h5>Автор: Анна</h5>
+<article>AngularJS — JavaScript-фреймворк с открытым исходным кодом.
+  Предназначен для разработки одностраничных приложений. Его цель — расширение
+  браузерных приложений на основе MVC-шаблона, а также упрощение тестирования и
+  разработки.
+  Фреймворк работает с HTML, содержащим дополнительные пользовательские атрибуты,
+  которые описываются директивами, и связывает ввод или вывод области страницы с
+  моделью, представляющей собой обычные переменные JavaScript. Значения этих
+  переменных задаются вручную или извлекаются из статических или динамических
+  JSON-данных.</article><br>
+  <footer>Дата: 19.02.2017</footer>
+
+<h1>Node.js</h1>
+<h5>Автор: Max</h5>
+<article>Node или Node.js — программная платформа, основанная на движке V8
+  (транслирующем JavaScript в машинный код), превращающая JavaScript из
+  узкоспециализированного языка в язык общего назначения.
+   Node.js добавляет возможность JavaScript взаимодействовать с устройствами
+   ввода-вывода через свой API (написанный на C++), подключать другие внешние
+    библиотеки, написанные на разных языках, обеспечивая вызовы к ним из
+    JavaScript-кода. Node.js применяется преимущественно на сервере,
+    выполняя роль веб-сервера, но есть возможность разрабатывать на Node.js
+     и десктопные оконные приложения (при помощи NW.js, AppJS или Electron для
+     Linux, Windows и Mac OS) и даже программировать микроконтроллеры
+      (например, tessel и espruino). В основе Node.js лежит событийно-ориентированное и асинхронное
+  (или реактивное) программирование с неблокирующим вводом/выводом.</article><br>
+  <footer>Дата: 24.02.2017</footer>
+
+
+
+<div class="form col-md-6">
+  <input type="text" class="form-control line-number" name="" value="" placeholder="line number">
+  <input type="text" class="form-control color" name="" value="" placeholder="row class">
+
+  <button type="button" class="btn btn-success" name="button" onclick="addColor()">Add</button>
+</div>
+<div class="form col-md-6 rfields">
+  <form class="" onsubmit="return addRow()">
+
+  <input type="text" class="form-control firstname"  name="" value="" placeholder="first name" required pattern = "[A-Za-zА-Яа-яЁё]{2,}">
+
+  <input type="text" class="form-control lastname" name="" value="" placeholder="last name" required pattern = "[A-Za-zА-Яа-яЁё]{2,}">
+  <input type="text" class="form-control username" name="" value="" placeholder="username" required pattern = "[a-zA-Z]{2,}">
+
+  <button type="submit" class="btn btn-success" id = "btn1" name="button" >Add data</button>
+</div>
+</form>
+
+<table id = "json" class = "table table-bordered">
+  <tbody>
+    <tr class="row-1 blank">
+      <td class = "column-0"></td>
+      <td class = "column-1"></td>
+      <td class = "column-2"></td>
+      <td class = "column-3"></td>
+      <td class = "column-4"></td>
+    </tr>
+  </tbody>
+</table>
+    </body>
+</html>
