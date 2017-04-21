@@ -1,0 +1,32 @@
+[
+  {
+
+    "firstName" : "Mark",
+    "lastName" : "Otto",
+    "username" : "@mdo"
+  },
+  {
+
+    "firstName" : "Ann",
+    "lastName" : "Ores",
+    "username" : "@ann"
+  },
+  {
+
+    "firstName" : "Liza",
+    "lastName" : "Lent",
+    "username" : "@lent"
+  },
+  {
+
+    "firstName" : "Kris",
+    "lastName" : "Art",
+    "username" : "@art"
+  },
+  {
+
+    "firstName" : "Nik",
+    "lastName" : "Sil",
+    "username" : "@nik"
+  }
+]
